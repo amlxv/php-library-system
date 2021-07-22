@@ -1,0 +1,26 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero img {
+  width: 600px;
+}
+
+@media screen and (max-width: 1100px) {
+  .hero .hero__ill1 {
+    display: none;
+  }
+  .hero {
+    justify-content: center;
+  }
+  .hero__login {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .hero {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.6px;
+}
+
+/* Scrollbar */
+
+/* Width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #9e9b9b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar-brand > img {
+  width: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    display: block;
+  }
+  #main_navbar ul li {
+    margin-bottom: 5px;
+  }
+}
+
+#main_navbar ul li {
+  margin-right: 10px;
+}
+
+.btn-nav {
+  padding: 10px 25px;
+  width: 100%;
+  text-align: left;
+}
+
+.content-borrower {
+  height: calc(100vh - 102px);
+}
+
+.no-books {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.group-title {
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+.text-rainbow {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #00ff00,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}

@@ -1,0 +1,5 @@
+# EXCLUDE SQL FILE
+*.sql
+
+# EXCLUDE ZIP FILE
+*.zip
