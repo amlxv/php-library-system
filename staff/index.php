@@ -1,5 +1,14 @@
 <?php
 
+/** 
+ * File Name           : staff/index.php
+ * Project Name        : Simple Library System
+ * Author              : amlxv
+ * Github Profile      : https://github.com/amlxv
+ * Github Repositories : https://github.com/amlxv/simple-library-system
+ * Version             : 1.0 - Initial Release
+ */
+
 require '../autoload.php';
 
 if (empty($_SESSION['current_user'])) {
@@ -32,7 +41,7 @@ if ($_SESSION['current_user']['role'] == 'borrower') {
     <!-- Custom Preset -->
     <link rel="stylesheet" href="../assets/css/core.css">
     <script src="../assets/js/core.js"></script>
-	<link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
 </head>
 
 <body>

@@ -1,5 +1,14 @@
 <?php
 
+/** 
+ * File Name           : Database.php
+ * Project Name        : php-mysql
+ * Author              : amlxv
+ * Github Profile      : https://github.com/amlxv
+ * Github Repositories : https://github.com/amlxv/php_mysql
+ * Version             : 1.0 - Initial Release
+ */
+
 class Database
 {
     // protected $host;

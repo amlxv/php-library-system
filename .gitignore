@@ -1,5 +1,5 @@
-# EXCLUDE SQL FILE
+# Ignore SQL
 *.sql
 
-# EXCLUDE ZIP FILE
+# Ignore ZIP
 *.zip
