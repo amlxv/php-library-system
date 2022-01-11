@@ -1,12 +1,9 @@
 <?php
 
 /** 
- * File Name           : login/borrower.php
- * Project Name        : Simple Library System
- * Author              : amlxv
- * Github Profile      : https://github.com/amlxv
- * Github Repositories : https://github.com/amlxv/simple-library-system
- * Version             : 1.0 - Initial Release
+ * @author amlxv
+ * @link https://github.com/amlxv
+ * @see https://github.com/amlxv/simple-library-system
  */
 
 require '../../config.php';
